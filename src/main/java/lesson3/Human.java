@@ -5,4 +5,8 @@ public class Human {
     int age;
     String town;
 
+    public void greeting(){
+        System.out.println("Hello! My name is - "+name);
+    }
+
 }
