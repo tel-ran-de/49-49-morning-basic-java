@@ -1,4 +1,4 @@
-package lesson2HW.entity;
+package lessons.lesson2HW.entity;
 
 public class Dog {
     public String name;

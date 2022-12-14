@@ -1,6 +1,4 @@
-package lesson2HW;
-
-import org.w3c.dom.ls.LSOutput;
+package lessons.lesson2HW;
 
 public class Lesson2 {
 

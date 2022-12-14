@@ -1,4 +1,4 @@
-package lesson2HW.entity;
+package lessons.lesson2HW.entity;
 
 public class Cat {
     String name;
@@ -8,7 +8,7 @@ public class Cat {
     String breed;
 
     public void voiceCat(){
-        System.out.println("lesson2HW.testLesson2.Cat say MEOW");
+        System.out.println("lessons.lesson2HW.testLesson2.Cat say MEOW");
     }
 
 }

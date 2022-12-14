@@ -1,4 +1,4 @@
-package lesson2HW;
+package lessons.lesson2HW;
 
 public class LessonVarExample {
 

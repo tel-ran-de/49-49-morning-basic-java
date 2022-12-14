@@ -1,4 +1,4 @@
-package lesson1HoweWork;
+package lessons.lesson1HoweWork;
 
 public class Lesson1 {
 

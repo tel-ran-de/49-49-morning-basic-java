@@ -1,4 +1,4 @@
-package lesson4;
+package lessons.lesson4;
 
 public class Dog {
     String name;

@@ -1,6 +1,4 @@
-package lesson3;
-
-import java.sql.SQLOutput;
+package lessons.lesson3;
 
 public class EnterPerson {
 

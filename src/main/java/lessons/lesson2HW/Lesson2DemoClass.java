@@ -1,7 +1,7 @@
-package lesson2HW;
+package lessons.lesson2HW;
 
-import lesson2HW.entity.Cat;
-import lesson2HW.entity.Dog;
+import lessons.lesson2HW.entity.Cat;
+import lessons.lesson2HW.entity.Dog;
 
 public class Lesson2DemoClass {
 
