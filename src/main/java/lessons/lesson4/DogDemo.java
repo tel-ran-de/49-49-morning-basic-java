@@ -1,7 +1,5 @@
 package lessons.lesson4;
 
-
-
 import java.util.Scanner;
 
 public class DogDemo {
