@@ -1,4 +1,4 @@
-package lessons.lesson5;
+package lessons.lesson5.staticDemo;
 
 public class Person {
 
