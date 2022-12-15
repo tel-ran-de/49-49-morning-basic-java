@@ -2,6 +2,7 @@ package lessons.lesson6.exampleString;
 
 public class StringOperationsDemo {
     public static void main(String[] args) {
+
         String oldString = "ABCAEA";
         String oldString1= "Java";
 
@@ -17,7 +18,7 @@ public class StringOperationsDemo {
 
     //--------------------------------------------------------------------------------
 
-    public static void replaceStringChar(String oldString, String oldString1){
+    public  static void replaceStringChar(String oldString, String oldString1){
         String newString = oldString.replace('A','B');
 
         System.out.println(oldString);
