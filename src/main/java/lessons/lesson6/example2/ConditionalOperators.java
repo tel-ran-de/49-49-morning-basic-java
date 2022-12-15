@@ -6,6 +6,13 @@ public class ConditionalOperators {
 
         int x = 150;
 
+            /* x > 0 - результат true или  false в нашем случае - true
+               x <=100 - результат true или  false в нашем случае - false
+               true && false  => 150 > 0  но не верно что 150 <=100
+
+               результат && :  true только если оба выражения будут  true
+
+             */
         // (true && false) = false
         if (x > 0 && x <= 100) {
             System.out.println("x is between 0 and 100");
@@ -16,10 +23,11 @@ public class ConditionalOperators {
 
 
         boolean rain = true;
-        boolean wind = false;
+        boolean cloud = true;
+        boolean sun  = true;
 
 
-        if (!wind && rain) {
+        if (sun && !rain) {
             System.out.println("Идем гулять с зонтом");
         } else {
             System.out.println("Идем гулять без зонта");
