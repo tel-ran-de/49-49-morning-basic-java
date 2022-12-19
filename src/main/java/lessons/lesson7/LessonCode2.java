@@ -17,16 +17,19 @@ public class LessonCode2 {
 
 //      if (userInput включает в себя символы только цифры или знак "-")
 
-        if (Integer.parseInt(userInput)<0) {
-            System.out.println("Your figure is negative!");
-        } else if (Integer.parseInt(userInput)>0) {
-            System.out.println("Your figure is positive!");
-        } else if (Integer.parseInt(userInput)==0){
-            System.out.println("Your figure is 0");
+        if (userInput.matches("[0-9-]+")) {
+
+            if (Integer.parseInt(userInput) < 0) {
+                System.out.println("Your figure is negative!");
+            } else if (Integer.parseInt(userInput) > 0) {
+                System.out.println("Your figure is positive!");
+            } else if (Integer.parseInt(userInput) == 0) {
+                System.out.println("Your figure is 0");
+            }
+
         } else {
             System.out.println("How is it possible?");
         }
-
 
 
     }
