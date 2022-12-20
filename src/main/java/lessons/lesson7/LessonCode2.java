@@ -17,6 +17,14 @@ public class LessonCode2 {
 
 //      if (userInput включает в себя символы только цифры или знак "-")
 
+      /*
+      userInput = "-1234512345" - true
+      userInput = "12345a12345" - false
+
+      пример регулярного выражения для проверки правильности ввода e-mail
+      ^[A-Z0-9+_.-]+@[A-Z0-9.-]+$
+       */
+
         if (userInput.matches("[0-9-]+")) {
 
             if (Integer.parseInt(userInput) < 0) {
