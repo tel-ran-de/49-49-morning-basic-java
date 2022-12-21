@@ -1,5 +1,7 @@
 package lessons.lesson9;
 
+import com.sun.source.tree.BreakTree;
+
 public class CompareNumbers {
 
     double number1;
@@ -7,15 +9,30 @@ public class CompareNumbers {
     double number2;
 
 
-    public double compare(){
+    public double compareLesser(){
         if (number1<number2) {return  number1;}
                 else {return number2;}
 
     }
 
-    public void printInfo(double compareResult){
+    public double compareMaximum(){
+        if (number1>number2) {return  number1;}
+        else {return number2;}
+
+    }
+
+    public boolean isEqual(){
+        if (number1==number2) {return true;}
+        else {return false;}
+    }
+
+    public void printInfo(String message, double compareResult){
         System.out.println("--------");
-        System.out.println("Lesser number is "+compareResult);
+        String outputMessage;
+        if (compareResult!=0) {outputMessage = message  + compareResult;}
+        else { outputMessage = message;}
+
+        System.out.println(outputMessage);
     }
 
 }
