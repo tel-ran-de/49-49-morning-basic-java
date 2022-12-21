@@ -26,10 +26,10 @@ public class CompareNumbers {
         else {return false;}
     }
 
-    public void printInfo(String message, double compareResult){
+    public void printInfo(String message, double compareResult, boolean check){
         System.out.println("--------");
         String outputMessage;
-        if (compareResult!=0) {outputMessage = message  + compareResult;}
+        if (check) {outputMessage = message  + compareResult;}
         else { outputMessage = message;}
 
         System.out.println(outputMessage);

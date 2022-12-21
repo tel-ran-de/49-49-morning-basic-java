@@ -15,12 +15,12 @@ public class CompareNumbersDemo {
         compareNumbers.number1= userInput("Please, enter first number");
         compareNumbers.number2 = userInput("Please, enter second number");
 
-        compareNumbers.printInfo(" Lesser number ", compareNumbers.compareLesser());
-        compareNumbers.printInfo(" Maximum number is ", compareNumbers.compareMaximum());
+        compareNumbers.printInfo(" Lesser number ", compareNumbers.compareLesser(), true);
+        compareNumbers.printInfo(" Maximum number is ", compareNumbers.compareMaximum(),true);
 
 
-        if (compareNumbers.isEqual()){compareNumbers.printInfo("Numbers are equals",0);}
-        else {compareNumbers.printInfo("Numbers are different",0);}
+        if (compareNumbers.isEqual()){compareNumbers.printInfo("Numbers are equals",0,false);}
+        else {compareNumbers.printInfo("Numbers are different",0, false);}
 
     }
 
