@@ -1,6 +1,6 @@
 package lessons.lesson4;
 
-public class Dog {
+class Dog {
     String name;
     String breed;
     int age;
